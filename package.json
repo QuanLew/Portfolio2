@@ -1,7 +1,7 @@
 {
   "name": "portfolio2_project",
   "version": "0.1.0",
-  "homepage": "https://QuanLew.github.io/portfolio2",
+  "homepage": "http://QuanLew.github.io/portfolio2",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
