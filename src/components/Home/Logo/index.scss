@@ -1,0 +1,65 @@
+.logo-container {
+  width: 400px;
+  height: 609px;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: auto;
+  margin: auto;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(190deg) !important;
+  }
+
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    opacity: 0;
+    transform: rotateZ(10deg) !important;
+    z-index: 1;
+  }
+}
+
+.about__me {
+  width: 100%;
+  aspect-ratio: 1/1;
+  border-radius: 2rem;
+  margin-left: 35%;
+  background: linear-gradient(45deg, transparent, #fff, transparent);
+  display: grid;
+  place-items: center;
+}
+
+.about__me-image {
+  width: 160%;
+  margin-right: 3rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  transform: rotate(10deg);
+  transition: all 400ms ease;
+}
+
+.about__me-image:hover {
+  transform: rotate(0);
+}
+
+.img-me {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.svg-container {
+  stroke: #ffccbc;
+  stroke-width: 1;
+}

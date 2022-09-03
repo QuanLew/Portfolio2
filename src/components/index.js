@@ -1,0 +1,11 @@
+export { default as FloatingButton } from "./FloatingButton/index";
+export { default as Sidebar } from "./Sidebar/index";
+export { default as Navbar } from "./Navbar/index";
+export { default as About } from "./About/index";
+export { default as Portfolio } from "./Portfolio/index";
+export { default as Experience } from "./Experience/index";
+export { default as Contact } from "./Contact/index";
+export { default as Home } from "./Home/index";
+export { default as Footer } from "./Footer/index";
+export { default as AnimatedLetter } from "./AnimatedLetters/index";
+export { default as PreLoader } from "./PreLoading/index";

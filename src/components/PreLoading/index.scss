@@ -1,0 +1,76 @@
+.container-preloader {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.preload {
+  position: fixed;
+  top: 80px;
+  width: 100%;
+  height: 80vh;
+  background: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    position: absolute;
+    top: 70%;
+    transform: translateY(-75%);
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+  }
+}
+
+.cloud1,
+.cloud2,
+.cloud3 {
+  height: 100px;
+  position: absolute;
+  right: 0%;
+  z-index: -1;
+}
+
+.cloud1 {
+  top: 25%;
+  transform: translateX(100%, -25%);
+  animation: clouds 3s ease infinite;
+}
+
+.cloud2 {
+  top: 50%;
+  transform: translateX(100%, -50%);
+  animation: clouds 3s ease infinite 2s;
+}
+
+.cloud3 {
+  top: 75%;
+  transform: translateX(100%, -75%);
+  animation: clouds 3s ease infinite 1.5s;
+}
+
+.astraut {
+  height: 200px;
+  animation: flight 1s ease infinite alternate;
+}
+
+@keyframes flight {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(50px);
+  }
+}
+
+@keyframes clouds {
+  from {
+    right: 0%;
+  }
+  to {
+    right: 130%;
+  }
+}
